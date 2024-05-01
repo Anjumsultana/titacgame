@@ -1,0 +1,86 @@
+
+
+.navbar-brand {
+    font-size: 24px;
+  }
+  
+  .navbar-nav .nav-item .nav-link {
+    font-size: 18px;
+  }
+  
+  .form-inline .form-control {
+    width: 200px;
+  }
+  
+  .btn-outline-success {
+    margin-left: 10px;
+  }
+  #tic{
+    color:darkblue;
+    font-size: 70px;
+  }
+ 
+
+  
+  
+  .container {
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+    color:mediumblue;
+}
+body{
+    background-color:black;
+    display:grid;
+}
+.board {
+    display:grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 4px;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    border: 5px solid black;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: inset;
+}
+
+#resetButton {
+    display: block;
+    margin: 20px auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color:  cornflowerblue;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color:black ;
+  }
+  
+  .navbar-nav .nav-item .nav-link:hover {
+    color: #007bff; 
+  }
+  
+  .navbar-nav .nav-item.active .nav-link {
+    color: #28a745; 
+  }
+  
+  
